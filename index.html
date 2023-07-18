@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatitos aleatorios</title>
+</head>
+<body>
+  <h1>Consumo de API Cat</h1>
+  <span id="error"></span>
+
+  <section id="RamdomCats">
+    <h2>Michis aleatorios</h2>
+    <article>
+      <img id="img1" width="300" alt="Cat image">
+      <button id="btn1" onclick="saveFavoriteMichis()">Guardar Gatos en favoritos</button>
+    </article>
+    
+    <article>
+      <img id="img2" width="300" alt="Cat image">
+      <button id="btn2" onclick="saveFavoriteMichis()">Guardar Gatos en favoritos</button>
+    </article>
+    
+    <input type="button" value="Actualizar Michis" onclick="loadRandomMichis()">
+  </section>
+
+  <section id="favoritesCats">
+    <h2>Gatos favoritos</h2>
+
+    <article>
+      <img id="img3" width="300" alt="">
+      <button>Eliminar Gatos de favoritos</button>
+    </article>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
